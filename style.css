@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box {
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    text-align: center;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.insta-logo {
+    width: 175px;
+    margin: 20px auto;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    background: #fafafa;
+}
+
+.login-btn {
+    background: #0095f6;
+    color: white;
+    font-weight: bold;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+
+.login-btn:hover {
+    background: #0077cc;
+}
+
+.or {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 15px 0;
+    color: #aaa;
+}
+
+.line {
+    flex: 1;
+    height: 1px;
+    background: #ddd;
+}
+
+.or-text {
+    margin: 0 10px;
+    font-size: 12px;
+}
+
+.fb-login {
+    color: #385185;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.forgot-password {
+    font-size: 12px;
+    color: #385185;
+    margin-top: 15px;
+}
+
+.signup-box {
+    margin-top: 10px;
+    font-size: 14px;
+    padding: 10px;
+    width: 350px;
+    text-align: center;
+    border: 1px solid #ddd;
+    background: white;
+}
+
+.signup-box a {
+    color: #0095f6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.app-section {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.app-section p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.app-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Adds spacing between buttons */
+}
+
+.app-buttons img {
+    width: 135px; /* Set the same width for both buttons */
+    height: 40px; /* Ensure equal height */
+    object-fit: contain; /* Keep image proportions */
+    border-radius: 5px; /* Smooth edges */
+}
